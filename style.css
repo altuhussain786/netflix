@@ -5,11 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 html{
-    background: #000;
+    background: #000000;
 }
 
 /* ---------------------------------------------header---------------------------- */
@@ -622,4 +622,138 @@ img{
 .paragraph{
     margin: 0.625rem 0 0;
     font-size: 1.5rem;
+}
+
+/* -----------------------------------------------------section 5 -------------------------------------------- */
+
+.section-5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 3.5rem 0;
+}
+
+.section-box-5{
+    margin: auto;
+    max-width: calc(100% - 23rem);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.heading-title{
+    flex-basis: 50%;
+    padding: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.heading-title > .title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.ul-box{
+    margin: 1.5rem 0 0;
+}
+
+.ul{
+    display: list-item;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
+
+.questionanswer{
+    display: list-item;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    margin: 0 0 0.5rem 0;
+    text-align: left;
+}
+.question{
+    position: relative;
+    margin: 0;
+    display: flex;
+    font-size: inherit;
+    font-weight: inherit;
+    margin-bottom: 0.0625rem;
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    height: 5rem;
+    max-height: calc(100% - 5rem);
+}
+
+.question:hover{
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background-color: rgb(65, 65, 65);
+}
+
+.question > button{
+    padding: 0;
+}
+
+.questionbutton{
+    border: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    font: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    margin: 1.5625rem;
+    padding: 0;
+    text-decoration: none;
+    width: 100%;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: left;
+}
+
+svg{
+    width: 36px;
+    height: 36px;
+    fill: none;
+    z-index: 1;
+}
+
+.svg-1{
+    flex-shrink: 0;
+    transform: rotate(0);
+    fill: #ffffff;
+}
+
+.svg-2{
+    display: none;
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+}
+
+.answer{
+    overflow: hidden;
+    visibility: collapse;
+    max-height: 0;
+    padding: 0 1.5rem;
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+    text-align: left;
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
 }
