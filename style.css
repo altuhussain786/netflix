@@ -305,8 +305,8 @@ flex-direction: column;
 }
 
 .section-box-1{
-    margin-left: 9.608625rem;
-    margin-right: 9.608625rem;
+    padding-left: 9.608625rem;
+    padding-right: 9.608625rem;
     width: 100%;
     height: 22.5rem;
     max-width: calc(100% - 3rem);
@@ -398,8 +398,8 @@ transform: translate(-51%, -91%);
 }
 
 .section-box-2{
-    margin-left: 9.608625rem;
-    margin-right: 9.608625rem;
+    padding-left:  9.608625rem;
+    padding-right: 9.608625rem;
     width: 100%;
     height: 22.5rem;
     max-width: calc(100% - 3rem);
@@ -731,7 +731,7 @@ img{
 
 .answer{
     overflow: hidden;
-    visibility: collapse;
+    visibility: hidden;
     max-height: 0;
     padding: 0 2rem;
     transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
@@ -745,8 +745,8 @@ img{
 .footer{
     width: 100%;
     color: rgba(225, 225, 225, 0.7);
-    margin-left: 10rem;
-    margin-right: 10rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
     font-size: 1rem;
     font-weight: 400;
 }
@@ -852,4 +852,23 @@ margin-left: 1.5rem;
 .last-text-container{
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+
+@media (max-width:480px){
+    .navbar .container-1 {
+        width: 60%;
+    }
+
+    .navbar .container-1 .netflix-icon{
+        width: 30rem;
+    }
+
+
+
+    .navbar .container-2 {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
 }
