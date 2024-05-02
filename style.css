@@ -805,6 +805,7 @@ img{
 
 .footer-ul{
     display: grid;
+    justify-content: space-evenly;
     grid-template-columns: 22rem 22rem 22rem 22rem;
     align-items: center;
     padding: 0;
