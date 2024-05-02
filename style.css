@@ -71,7 +71,7 @@ header .container-2 .language-box{
     width: auto;
 }
 
-header .container-2 .language-box #language{
+header .container-2 .language-box .language{
     background-color: transparent;
     color: #ffffff;
     padding-left: .5rem;
@@ -830,7 +830,7 @@ footer .language-box{
     margin-left: 1rem;
 }
 
-footer .language-box #language{
+footer .language-box .language{
     background-color: transparent;
     color: #ffffff;
     padding-left: .5rem;
